@@ -53,7 +53,7 @@ The test suite uses the **Pest** testing framework and covers:
 - 🔍 Filtering functionality  
 - 📥 Data validation  
 
-## Getting Started
+## Getting Started Without Docker
 
 To get started with this project:
 
@@ -84,7 +84,7 @@ This application can be run using Docker for both development and production env
 - Docker and Docker Compose installed on your system
 - Git
 
-### Quick Start Without Docker
+### Quick Start With Docker
 
 1. Clone the repository: 
 ```bash
