@@ -20,6 +20,9 @@ composer dump-autoload
 # Run migrations
 php artisan migrate --force
 
+# Run tests
+php artisan test
+
 # Optional: Seed the database (uncomment if needed)
 # php artisan db:seed --force
 

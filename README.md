@@ -61,9 +61,14 @@ To get started with this project:
 git clone git@github.com:subtain-haider/task-management.git
 cd task-management
 composer install
+cp .env.example .env
+# Make sure to update your .env file with correct DB and other settings
+php artisan key:generate 
 php artisan migrate --force
 # Optional: Run seeder
 # php artisan db:seed --force
+# Optional: Run tests
+php artisan test
 php artisan serve
 ```
 
@@ -79,7 +84,7 @@ This application can be run using Docker for both development and production env
 - Docker and Docker Compose installed on your system
 - Git
 
-### Quick Start
+### Quick Start Without Docker
 
 1. Clone the repository: 
 ```bash
